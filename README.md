@@ -17,9 +17,9 @@ Maven 3.0+ needs to be installed
 SQLite 3.0+ needs to be installed
 
 
-run the following commands
+run the following 1 command
 
-mvn spring-boot:run
+1. mvn spring-boot:run
 
 Nagivate to http://localhost:8080/customer on your browser.
 
@@ -27,12 +27,12 @@ TO RUN THE APP ON DOCKER:
 
 Docker needs to be installed
 
-run the following commands
+run the following 3 commands
 
-mvn clean install
+1. mvn clean install
 
-docker build --tag=phone-category:latest .
+2. docker build --tag=phone-category:latest .
 
-docker run -p 8080:8080 phone-category
+3. docker run -p 8080:8080 phone-category
 
 Nagivate to http://localhost:8080/customer on your browser.
