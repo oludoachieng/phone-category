@@ -14,16 +14,10 @@ Java 11 needs to be installed
 
 Maven 3.0+ needs to be installed
 
-Option 1: run the following commands
-
-mvn clean install
-
-cd target
-
-java -jar phone-category-0.0.1-SNAPSHOT.jar
+SQLite 3.0+ needs to be installed
 
 
-Option 2: run the following commands
+run the following commands
 
 mvn spring-boot:run
 
@@ -33,6 +27,8 @@ TO RUN THE APP ON DOCKER:
 Docker needs to be installed
 
 run the following commands
+
+mvn clean install
 
 docker build --tag=phone-category:latest .
 
