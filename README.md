@@ -21,6 +21,7 @@ run the following commands
 
 mvn spring-boot:run
 
+Nagivate to http://localhost:8080/customer on your browser.
 
 TO RUN THE APP ON DOCKER:
 
@@ -34,3 +35,4 @@ docker build --tag=phone-category:latest .
 
 docker run -p 8080:8080 phone-category
 
+Nagivate to http://localhost:8080/customer on your browser.
